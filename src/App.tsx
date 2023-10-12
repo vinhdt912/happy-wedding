@@ -1,10 +1,17 @@
+import { ConfigProvider } from "antd";
 import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
-    <div className="container">
+    <ConfigProvider
+      theme={{
+        token: {
+          fontFamily: "Mali",
+        },
+      }}
+    >
       <AboutUs />
-    </div>
+    </ConfigProvider>
   );
 }
 

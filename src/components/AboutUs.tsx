@@ -1,16 +1,13 @@
-import React from "react";
-import { Typography } from "antd";
-
-import "./AboutUs.scss";
 // @ts-ignore
-import { ReactComponent as HeaderIcon } from "../assets/hearts-icon.svg";
+import { ReactComponent as HeartIcon } from "../assets/hearts-icon.svg";
+import { Title } from "../libs";
+import "./AboutUs.scss";
 
 function AboutUs() {
   return (
-    <div>
-      <Typography>Về chúng tôi</Typography>
-      <h3 className="title">Về chúng tôi</h3>
-      <HeaderIcon />
+    <div className="AboutUs">
+      <Title>Về chúng tôi</Title>
+      <HeartIcon className="AboutUs__HeartIcon" />
     </div>
   );
 }

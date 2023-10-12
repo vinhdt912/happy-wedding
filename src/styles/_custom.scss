@@ -1,0 +1,13 @@
+.ant-typography.Title {
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+  color: $mainColor;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+svg {
+  fill: $mainColor;
+  display: block;
+}
