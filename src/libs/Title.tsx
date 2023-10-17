@@ -1,8 +1,8 @@
-import { Typography, TypographyProps } from "antd";
+import { Typography } from "antd";
 
 const { Title: AntTitle } = Typography;
 
-interface ITitle extends TypographyProps {
+interface ITitle {
   children: React.ReactNode;
 }
 

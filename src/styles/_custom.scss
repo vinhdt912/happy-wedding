@@ -7,6 +7,53 @@
   margin-bottom: 20px;
 }
 
+.ant-typography.Text {
+  font-size: 16px;
+  color: $textDefaultColor;
+  line-height: 1.8;
+}
+
+.ant-typography.TextColor {
+  font-size: 20px;
+  color: $mainColor;
+  margin-bottom: 8px;
+  line-height: 20px;
+}
+
+.TextDescriptionContainer {
+  margin-top: 30px;
+  padding-inline: 25px;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AvatarContainer {
+  position: relative;
+  width: 60%;
+  left: 20%;
+
+  .pos-2 {
+    position: absolute;
+    top: 9.8%;
+    left: 10.7%;
+    width: 79%;
+  }
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
 svg {
   fill: $mainColor;
   display: block;

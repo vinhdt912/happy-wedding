@@ -1,15 +1,15 @@
 import { Col, Divider, Row } from "antd";
-import { ArrowIcon1, HeartIcon, ManIcon, RingIcon } from "../assets/icons";
 import { Title } from "../libs";
-import Avatar from "../libs/Avatar";
 import { Text } from "../libs/Text";
 import { TextColor } from "../libs/TextColor";
 import { TextDescription } from "../libs/TextDescription";
+import Avatar from "../libs/Avatar";
+import { ArrowIcon1, HeartIcon, ManIcon, RingIcon } from "../assets/icons";
 
-export default function AboutUs() {
+export default function LoveStory() {
   return (
-    <div className="AboutUs">
-      <Title>Về chúng tôi</Title>
+    <div className="LoveStory" style={{ marginTop: 120 }}>
+      <Title>Câu Chuyện Tình Yêu</Title>
       <HeartIcon style={{ width: 77, margin: "0 auto" }} />
       <Row style={{ marginTop: 40 }}>
         <Col span={14}>

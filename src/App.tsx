@@ -1,5 +1,7 @@
 import { ConfigProvider } from "antd";
 import AboutUs from "./components/AboutUs";
+import Banner from "./components/Banner";
+import LoveStory from "./components/LoveStory";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
         },
       }}
     >
+      <Banner />
       <AboutUs />
+      <LoveStory />
     </ConfigProvider>
   );
 }
