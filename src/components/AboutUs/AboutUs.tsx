@@ -1,10 +1,13 @@
 import { Col, Divider, Row } from "antd";
-import { ArrowIcon1, HeartIcon, ManIcon, RingIcon } from "../assets/icons";
-import { Title } from "../libs";
-import Avatar from "../libs/Avatar";
-import { Text } from "../libs/Text";
-import { TextColor } from "../libs/TextColor";
-import { TextDescription } from "../libs/TextDescription";
+import {
+  ArrowIcon1,
+  HeartIcon,
+  ManIcon,
+  RingIcon,
+  WomanIcon,
+} from "../../assets/icons";
+import "./AboutUs.scss";
+import { TextColor, TextDescription, Title, Text, Avatar } from "../../libs";
 
 export default function AboutUs() {
   return (
@@ -27,7 +30,6 @@ export default function AboutUs() {
           span={10}
           style={{
             paddingRight: 100,
-            paddingTop: 20,
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-end",
@@ -52,7 +54,6 @@ export default function AboutUs() {
           span={10}
           style={{
             paddingLeft: 100,
-            paddingTop: 20,
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
@@ -60,7 +61,7 @@ export default function AboutUs() {
         >
           <TextColor>Ngoc Lan</TextColor>
           <Text style={{ marginBottom: 8 }}>20.03</Text>
-          <ManIcon style={{ width: 36 }} />
+          <WomanIcon style={{ width: 36 }} />
         </Col>
         <Col span={14}>
           <Avatar

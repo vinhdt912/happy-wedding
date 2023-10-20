@@ -1,8 +1,10 @@
 import { Typography } from "antd";
+import { TextProps } from "antd/es/typography/Text";
+import "./TextColor.scss";
 
 const { Paragraph: AntParagraph } = Typography;
 
-interface ITextColor {
+interface ITextColor extends TextProps {
   children: React.ReactNode;
 }
 

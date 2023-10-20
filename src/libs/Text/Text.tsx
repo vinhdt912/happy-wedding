@@ -1,5 +1,6 @@
 import { Typography } from "antd";
 import { TextProps } from "antd/es/typography/Text";
+import "./Text.scss";
 
 const { Text: AntText } = Typography;
 

@@ -1,4 +1,5 @@
 import { Typography } from "antd";
+import "./Title.scss";
 
 const { Title: AntTitle } = Typography;
 

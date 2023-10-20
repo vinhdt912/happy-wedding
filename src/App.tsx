@@ -1,7 +1,7 @@
 import { ConfigProvider } from "antd";
-import AboutUs from "./components/AboutUs";
+import AboutUs from "./components/AboutUs/AboutUs";
 import Banner from "./components/Banner";
-import LoveStory from "./components/LoveStory";
+import LoveStory from "./components/LoveStory/LoveStory";
 
 function App() {
   return (
