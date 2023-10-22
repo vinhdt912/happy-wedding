@@ -19,7 +19,7 @@ export default function AboutUs() {
           <Avatar
             avtName="avt-man-1.png"
             style={{ rotate: "-7deg" }}
-            arrowElement={
+            pos3={
               <div style={{ position: "absolute", top: -12, right: -65 }}>
                 <ArrowIcon1 style={{ width: 77 }} />
               </div>
@@ -67,7 +67,7 @@ export default function AboutUs() {
           <Avatar
             avtName="avt-woman-1.png"
             style={{ rotate: "7deg" }}
-            arrowElement={
+            pos3={
               <div
                 style={{
                   position: "absolute",

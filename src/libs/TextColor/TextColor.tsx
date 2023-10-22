@@ -9,10 +9,13 @@ interface ITextColor extends TextProps {
 }
 
 export const TextColor = (props: ITextColor) => {
-  const { children, ...restProps } = props;
+  const { children, className, ...restProps } = props;
 
   return (
-    <AntParagraph className="TextColor" {...restProps}>
+    <AntParagraph
+      className={`TextColor ${className ?? undefined}`}
+      {...restProps}
+    >
       {children}
     </AntParagraph>
   );

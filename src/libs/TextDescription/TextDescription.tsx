@@ -5,6 +5,7 @@ import "./TextDescription.scss";
 interface ITextDescription {
   children: React.ReactNode;
   style?: React.CSSProperties;
+  [key: string]: any;
 }
 
 export const TextDescription = (props: ITextDescription) => {

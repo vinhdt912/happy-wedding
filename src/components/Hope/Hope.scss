@@ -1,0 +1,14 @@
+.Hope {
+  margin-block: 100px;
+  .note {
+    padding: 50px 10px;
+    background-image: url("../../assets/images/note-background.png");
+    width: 100%;
+  }
+  .countdown {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+  }
+}
