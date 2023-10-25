@@ -3,12 +3,29 @@
   .note {
     padding: 50px 10px;
     background-image: url("../../assets/images/note-background.png");
-    width: 100%;
   }
   .countdown {
     display: flex;
     flex-direction: row;
     gap: 16px;
     justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  .card-time {
+    border: 1px solid #d67567;
+    box-shadow: 0 3px 3px #0003;
+
+    .ant-card-body {
+      .TextColor {
+        font-weight: bold;
+      }
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+      height: 120px;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
