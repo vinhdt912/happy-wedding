@@ -11,7 +11,7 @@ export default function Gallery() {
       <Carousel autoplay autoplaySpeed={2000} style={{ marginBottom: 40 }}>
         {["gallery-1.png", "gallery-2.png", "gallery-3.png"].map(
           (url, index) => (
-            <div>
+            <div key={index}>
               <img src={require(`../../assets/images/${url}`)} alt="avt-man" />
             </div>
           ),

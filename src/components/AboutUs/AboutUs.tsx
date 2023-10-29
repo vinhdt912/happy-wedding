@@ -15,7 +15,7 @@ export default function AboutUs() {
       <Title>Về chúng tôi</Title>
       <HeartIcon style={{ width: 77, margin: "0 auto" }} />
       <Row style={{ marginTop: 40 }}>
-        <Col span={14}>
+        <Col span={14} className="col-img">
           <Avatar
             avtName="avt-man-1.png"
             style={{ rotate: "-7deg" }}
@@ -26,21 +26,13 @@ export default function AboutUs() {
             }
           />
         </Col>
-        <Col
-          span={10}
-          style={{
-            paddingRight: 100,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "flex-end",
-          }}
-        >
+        <Col span={10} className="col-info">
           <TextColor>Hoang Nam</TextColor>
           <Text style={{ marginBottom: 8 }}>14.05</Text>
           <ManIcon style={{ width: 36 }} />
         </Col>
       </Row>
-      <TextDescription>
+      <TextDescription className="text-center">
         Là một người hiền lành và ít nói. Luôn coi trọng tình cảm và yêu thương
         gia đình. Với anh: “Gia đình là điểm tựa vững chắc nhất và là bến đỗ
         bình yên không đâu sánh bằng đối với mỗi con người.
@@ -50,20 +42,12 @@ export default function AboutUs() {
         <RingIcon style={{ width: 68 }} />
       </Divider>
       <Row>
-        <Col
-          span={10}
-          style={{
-            paddingLeft: 100,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "flex-start",
-          }}
-        >
+        <Col span={10} className="col-info">
           <TextColor>Ngoc Lan</TextColor>
           <Text style={{ marginBottom: 8 }}>20.03</Text>
           <WomanIcon style={{ width: 36 }} />
         </Col>
-        <Col span={14}>
+        <Col span={14} className="col-img">
           <Avatar
             avtName="avt-woman-1.png"
             style={{ rotate: "7deg" }}
@@ -83,7 +67,7 @@ export default function AboutUs() {
           />
         </Col>
       </Row>
-      <TextDescription>
+      <TextDescription className="text-center">
         Là một người nói nhiều nhưng lại sống nội tâm, thích xem phim hoạt hình,
         trồng cây và yêu thiên nhiên. Ngoài ra còn có ước mơ có cho mình một
         vườn hoa nho nhỏ để chăm sóc.
