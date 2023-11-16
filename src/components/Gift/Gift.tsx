@@ -1,4 +1,3 @@
-import { Divider } from "antd";
 import { TextColor } from "../../libs";
 import "./Gift.scss";
 export default function Gift() {

@@ -1,9 +1,4 @@
-import {
-  ArrowIcon1,
-  Heart2Icon,
-  HeartIcon,
-  RingIcon,
-} from "../../assets/icons";
+import { ArrowIcon1, Heart2Icon, RingIcon } from "../../assets/icons";
 import { Avatar, TextColor, TextDescription, Title } from "../../libs";
 import "./LoveStory.scss";
 
