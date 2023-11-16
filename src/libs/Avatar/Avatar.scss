@@ -8,5 +8,10 @@
     top: 9.8%;
     left: 10.7%;
     width: 79%;
+    height: 79%;
+
+    img {
+      object-fit: cover;
+    }
   }
 }
