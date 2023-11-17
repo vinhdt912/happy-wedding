@@ -9,13 +9,17 @@ export default function Gallery() {
     <div className="Gallery">
       <TextColor className="text-center">Photo Gallery</TextColor>
       <Carousel autoplay autoplaySpeed={2000} style={{ marginBottom: 40 }}>
-        {["gallery-1.png", "gallery-2.png", "gallery-3.png"].map(
-          (url, index) => (
-            <div key={index}>
-              <img src={require(`../../assets/images/${url}`)} alt="avt-man" />
-            </div>
-          ),
-        )}
+        {[
+          "gallery-1.png",
+          "gallery-2.png",
+          "gallery-3.png",
+          "gallery-4.png",
+          "gallery-5.png",
+        ].map((url, index) => (
+          <div key={index}>
+            <img src={require(`../../assets/images/${url}`)} alt="avt-man" />
+          </div>
+        ))}
       </Carousel>
     </div>
   );

@@ -10,7 +10,7 @@ export default function LoveStory() {
       <div style={{ marginTop: 30 }}>
         <div className="card FirstTimeStory">
           <Avatar
-            avtName="avt-man-1.png"
+            avtName="story-1.png"
             pos3={
               <div className="pos-3">
                 <ArrowIcon1 />
@@ -37,7 +37,7 @@ export default function LoveStory() {
 
         <div className="card BeginDate">
           <Avatar
-            avtName="avt-man-1.png"
+            avtName="story-2.png"
             pos3={
               <div className="pos-3">
                 <ArrowIcon1 />
@@ -64,7 +64,7 @@ export default function LoveStory() {
 
         <div className="card FirstTimeStory">
           <Avatar
-            avtName="avt-man-1.png"
+            avtName="story-3.png"
             pos3={
               <div className="pos-3">
                 <ArrowIcon1 />
@@ -91,7 +91,7 @@ export default function LoveStory() {
 
         <div className="card BeginDate">
           <Avatar
-            avtName="avt-man-1.png"
+            avtName="story-4.png"
             pos3={
               <div className="pos-3">
                 <ArrowIcon1 />

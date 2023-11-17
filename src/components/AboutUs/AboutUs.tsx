@@ -27,8 +27,8 @@ export default function AboutUs() {
           />
         </Col>
         <Col span={10} className="col-info">
-          <TextColor>Hoang Nam</TextColor>
-          <Text style={{ marginBottom: 8 }}>14.05</Text>
+          <TextColor>Đăng Nam</TextColor>
+          <Text style={{ marginBottom: 8 }}>22.03</Text>
           <ManIcon style={{ width: 36 }} />
         </Col>
       </Row>
@@ -43,8 +43,8 @@ export default function AboutUs() {
       </Divider>
       <Row>
         <Col span={10} className="col-info">
-          <TextColor>Ngoc Lan</TextColor>
-          <Text style={{ marginBottom: 8 }}>20.03</Text>
+          <TextColor>Ngọc Lan</TextColor>
+          <Text style={{ marginBottom: 8 }}>23.03</Text>
           <WomanIcon style={{ width: 36 }} />
         </Col>
         <Col span={14} className="col-img">
