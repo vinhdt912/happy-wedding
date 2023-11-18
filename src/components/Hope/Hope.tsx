@@ -6,7 +6,7 @@ import dayjs from "dayjs";
 
 export default function Hope() {
   const [date, setDate] = useState(
-    dayjs("12/15/2023", "DD/MM/YYYY").diff(dayjs(), "s"),
+    dayjs("12/2/2023", "DD/MM/YYYY").diff(dayjs(), "s"),
   );
   const totalDays = useMemo(() => Math.floor(date / (60 * 60 * 24)), [date]);
   const totalHours = useMemo(

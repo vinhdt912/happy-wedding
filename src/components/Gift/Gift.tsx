@@ -1,4 +1,5 @@
-import { TextColor } from "../../libs";
+import { Divider } from "antd";
+import { Text, TextColor } from "../../libs";
 import "./Gift.scss";
 export default function Gift() {
   return (
@@ -12,12 +13,27 @@ export default function Gift() {
           src={require("../../assets/images/lan-qr-code.png")}
           alt="qr-code"
         />
+        <div>
+          <Text strong>Nguyễn Thị Ngọc Lan</Text>
+        </div>
+        <div>
+          <Text>0301000407534</Text>
+        </div>
+      </div>
+      <div style={{ paddingInline: 80 }}>
+        <Divider dashed />
       </div>
       <div className="qr-code">
         <img
           src={require("../../assets/images/nam-qr-code.png")}
           alt="qr-code"
         />
+        <div>
+          <Text strong>Ngô Đăng Nam</Text>
+        </div>
+        <div>
+          <Text>0351000967884</Text>
+        </div>
       </div>
     </div>
   );
