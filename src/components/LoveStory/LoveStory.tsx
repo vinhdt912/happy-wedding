@@ -4,7 +4,7 @@ import "./LoveStory.scss";
 
 export default function LoveStory() {
   return (
-    <div className="LoveStory" style={{ marginTop: 120 }}>
+    <div className="LoveStory" style={{ marginTop: 80 }}>
       <Title>Câu Chuyện Tình Yêu</Title>
 
       <div style={{ marginTop: 30 }}>

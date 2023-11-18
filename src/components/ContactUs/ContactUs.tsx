@@ -8,14 +8,16 @@ import {
   notification,
 } from "antd";
 import TextArea from "antd/es/input/TextArea";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   AcceptIcon,
   BrideIcon,
   GroomIcon,
   RejectIcon,
 } from "../../assets/icons";
+import { useContext } from "../../hooks/context";
 import { Text, TextColor, TextDescription } from "../../libs";
+import { EGuestOf } from "../../types/enum";
 import "./ContactUs.scss";
 
 interface IForm {
@@ -35,6 +37,8 @@ export default function ContactUs() {
   const [form] = Form.useForm<IForm>();
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
+  const { setGuestOf } = useContext();
+  const guest_of = Form.useWatch("guest_of", form);
 
   const GUEST_OF_OPTIONS: CheckboxOptionType[] = [
     {
@@ -44,7 +48,7 @@ export default function ContactUs() {
           <Text>Team cô dâu</Text>
         </>
       ),
-      value: "CÔ DÂU",
+      value: EGuestOf.girl,
     },
     {
       label: (
@@ -53,7 +57,7 @@ export default function ContactUs() {
           <Text>Team chú rể</Text>
         </>
       ),
-      value: "CHÚ RỂ",
+      value: EGuestOf.man,
     },
   ];
   const POSSIBLE_OPTIONS: CheckboxOptionType[] = [
@@ -93,8 +97,10 @@ export default function ContactUs() {
       await emailjs.send(
         SERVICE.SERVICE_ID,
         SERVICE.TEMPLATE_ID,
-        //@ts-expect-error
-        values,
+        {
+          ...values,
+          guest_of: values.guest_of === EGuestOf.girl ? "CÔ DÂU" : "CHÚ RỂ",
+        },
         SERVICE.PUBLIC_KEY,
       );
       notification.success({
@@ -114,6 +120,10 @@ export default function ContactUs() {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    setGuestOf(guest_of);
+  }, [setGuestOf, guest_of]);
 
   return (
     <>
@@ -164,7 +174,7 @@ export default function ContactUs() {
             <TextArea
               placeholder="Lời nhắn gửi đến đôi uyên ương"
               size="large"
-              autoSize={{ minRows: 5, maxRows: 5 }}
+              autoSize={{ minRows: 2, maxRows: 2 }}
             />
           </Form.Item>
           <Form.Item>

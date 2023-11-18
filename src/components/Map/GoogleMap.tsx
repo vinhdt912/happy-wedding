@@ -1,7 +1,10 @@
 import { Divider } from "antd";
 import Iframe from "react-iframe";
 import { TextColor } from "../../libs";
+import { useContext } from "../../hooks/context";
 export default function GoogleMap() {
+  const { guestOf } = useContext();
+
   return (
     <div>
       <Divider dashed />
@@ -10,14 +13,10 @@ export default function GoogleMap() {
         <TextColor className="text-center">Địa chỉ nhà gái</TextColor>
 
         <Iframe
-          url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1860.240160060719!2d105.897856!3d21.17307!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350777530a77d3%3A0x753db835085d97d0!2zQmlhIEjGoWkgxJDDrG5oIEx14bqtbg!5e0!3m2!1svi!2sus!4v1697989684053!5m2!1svi!2sus"
+          url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.431285790753!2d105.89133407592084!3d21.175019482737707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313507bdaaa8fe71%3A0x821e8e8c915b4381!2zTmjDoCBWxINuIEhvw6EgVGjDtG4gTeG6oW5oIFTDom4!5e0!3m2!1svi!2s!4v1700280810518!5m2!1svi!2s"
           width="100%"
           height="450"
           frameBorder={0}
-
-          //   allowfullscreen=""
-          //   loading="lazy"
-          //   referrerpolicy="no-referrer-when-downgrade"
         />
       </div>
       <div style={{ marginTop: 40 }}>
@@ -28,10 +27,6 @@ export default function GoogleMap() {
           width="100%"
           height="450"
           frameBorder={0}
-
-          //   allowfullscreen=""
-          //   loading="lazy"
-          //   referrerpolicy="no-referrer-when-downgrade"
         />
       </div>
       <Divider dashed />

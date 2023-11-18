@@ -8,7 +8,7 @@ export default function ContactInfo() {
     <div className="ContactInfo">
       <TextColor className="text-center">Thông tin liên hệ</TextColor>
 
-      <Row gutter={24} style={{ marginTop: 40 }}>
+      <Row style={{ marginTop: 40 }}>
         <Col span={12} className="contact-container">
           <a href="tel:0328933327" className="contact">
             <Button

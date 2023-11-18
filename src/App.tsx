@@ -8,6 +8,7 @@ import Hope from "./components/Hope/Hope";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Gift from "./components/Gift/Gift";
 import ContactInfo from "./components/ContactInfo/ContactInfo";
+import ThiepMoi from "./components/ThiepMoi/ThiepMoi";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Hope />
       <ContactUs />
       <Gift />
+      <ThiepMoi />
       <GoogleMap />
       <ContactInfo />
     </ConfigProvider>
