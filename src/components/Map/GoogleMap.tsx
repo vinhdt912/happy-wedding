@@ -1,10 +1,7 @@
 import { Divider } from "antd";
 import Iframe from "react-iframe";
 import { TextColor } from "../../libs";
-import { useContext } from "../../hooks/context";
 export default function GoogleMap() {
-  const { guestOf } = useContext();
-
   return (
     <div>
       <Divider dashed />
