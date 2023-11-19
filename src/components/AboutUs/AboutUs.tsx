@@ -33,9 +33,7 @@ export default function AboutUs() {
         </Col>
       </Row>
       <TextDescription className="text-center" style={{ padding: 15 }}>
-        Là một người hiền lành và ít nói. Luôn coi trọng tình cảm và yêu thương
-        gia đình. Với anh: “Gia đình là điểm tựa vững chắc nhất và là bến đỗ
-        bình yên không đâu sánh bằng đối với mỗi con người.
+        Một chàng trai hiền lành và ít nói, luôn coi trọng tình cảm. Với anh: “Gia đình là điểm tựa vững chắc nhất, là bến đỗ bình yên trong cuộc đời”.
       </TextDescription>
 
       <Divider plain style={{ paddingInline: "10%", marginBlock: 25 }}>
@@ -68,9 +66,7 @@ export default function AboutUs() {
         </Col>
       </Row>
       <TextDescription className="text-center" style={{ padding: 15 }}>
-        Là một người nói nhiều nhưng lại sống nội tâm, thích xem phim hoạt hình,
-        trồng cây và yêu thiên nhiên. Ngoài ra còn có ước mơ có cho mình một
-        vườn hoa nho nhỏ để chăm sóc.
+        Một cô gái dịu dàng, nội tâm mong manh nhưng đôi khi lại vô cùng nổi loạn. Sau mỗi chuyến đi, một mái ấm bình yên - một gia đình hạnh phúc là nơi mà cô luôn muốn trở về
       </TextDescription>
     </div>
   );
