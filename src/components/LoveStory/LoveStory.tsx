@@ -27,7 +27,9 @@ export default function LoveStory() {
             Lần Đầu Gặp Mặt
           </TextColor>
           <TextDescription className="text-center">
-            Sau vài lần lỡ hẹn, ngày hôm ấy mình đã được gặp nhau. Ngỡ xa lạ nhưng lại thân quen đến đã thường. Ngày gặp đầu tiên mà cảm giác như gặp được tri kỷ.
+            Sau vài lần lỡ hẹn, ngày hôm ấy mình đã được gặp nhau. Ngỡ xa lạ
+            nhưng lại thân quen đến lạ thường. Ngày gặp đầu tiên mà cảm giác như
+            gặp được tri kỷ.
           </TextDescription>
         </div>
 
@@ -50,7 +52,9 @@ export default function LoveStory() {
             Bắt Đầu Hẹn Hò
           </TextColor>
           <TextDescription className="text-center">
-          Khi em còn lo sợ về một cuộc tình không bền lâu. Anh đã đến dùng hành động của mình để nói em biết rằng: tin tưởng vào tình yêu của chúng mình là điều vô cùng đúng đắn.
+            Khi em còn lo sợ về một cuộc tình không bền lâu. Anh đã đến dùng
+            hành động của mình để nói em biết rằng: tin tưởng vào tình yêu của
+            chúng mình là điều vô cùng đúng đắn.
           </TextDescription>
         </div>
 
@@ -73,7 +77,11 @@ export default function LoveStory() {
             Giây Phút Cầu Hôn
           </TextColor>
           <TextDescription className="text-center">
-            Thời gian không ngắn cũng không dài nhưng đủ cho chúng ta nhận ra được rất nhiều điều. Từ 2 con người xa lạ mình bước vào đời nhau viết lên  câu chuyện tình yêu. Và giờ đây chúng ta tiếp tục cùng nhau sang trang mới. Giây phút anh ngỏ lời “Làm vợ anh nhé!”, em đã nguyện ý đời này, đi đâu cũng được, miễn là cùng anh.
+            Thời gian không ngắn cũng không dài nhưng đủ cho chúng ta nhận ra
+            được rất nhiều điều. Từ 2 con người xa lạ mình bước vào đời nhau
+            viết lên câu chuyện tình yêu. Và giờ đây chúng ta tiếp tục cùng nhau
+            sang trang mới. Giây phút anh ngỏ lời “Làm vợ anh nhé!”, em đã
+            nguyện ý đời này, đi đâu cũng được, miễn là cùng anh.
           </TextDescription>
         </div>
 
@@ -96,8 +104,12 @@ export default function LoveStory() {
             Ngày Chung Đôi
           </TextColor>
           <TextDescription className="text-center">
-          Ngày hôm nay, em mặc lên mình chiếc váy xinh đẹp nhất, trở thành cô dâu của anh. <br/>
-Duyên số cho ta gặp nhau. Sự cố gắng của cả hai đã viết lên câu chuyện happy ending và đôi ta sẽ viết tiếp những trang ngoại truyện bằng chuỗi tháng ngày ấm êm và hạnh phúc. Cảm ơn anh, cảm ơn em, cảm ơn mình vì đã luôn là một phần trong cuộc sống của nhau.
+            Ngày hôm nay, em mặc lên mình chiếc váy xinh đẹp nhất, trở thành cô
+            dâu của anh. <br />
+            Duyên số cho ta gặp nhau. Sự cố gắng của cả hai đã viết lên câu
+            chuyện happy ending và đôi ta sẽ viết tiếp những trang ngoại truyện
+            bằng chuỗi tháng ngày ấm êm và hạnh phúc. Cảm ơn anh, cảm ơn em, cảm
+            ơn mình vì đã luôn là một phần trong cuộc sống của nhau.
           </TextDescription>
         </div>
       </div>
