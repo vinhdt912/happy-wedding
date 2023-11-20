@@ -1,13 +1,13 @@
 import { ConfigProvider } from "antd";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Banner from "./components/Banner/Banner";
+import ContactInfo from "./components/ContactInfo/ContactInfo";
+import ContactUs from "./components/ContactUs/ContactUs";
+import Gallery from "./components/Gallery/Gallery";
+import Gift from "./components/Gift/Gift";
+import Hope from "./components/Hope/Hope";
 import LoveStory from "./components/LoveStory/LoveStory";
 import GoogleMap from "./components/Map/GoogleMap";
-import Gallery from "./components/Gallery/Gallery";
-import Hope from "./components/Hope/Hope";
-import ContactUs from "./components/ContactUs/ContactUs";
-import Gift from "./components/Gift/Gift";
-import ContactInfo from "./components/ContactInfo/ContactInfo";
 import ThiepMoi from "./components/ThiepMoi/ThiepMoi";
 
 function App() {
