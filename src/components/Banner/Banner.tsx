@@ -1,4 +1,3 @@
-import { Carousel } from "antd";
 import "./Banner.scss";
 
 export default function Banner() {
