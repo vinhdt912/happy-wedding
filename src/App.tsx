@@ -9,6 +9,7 @@ import Hope from "./components/Hope/Hope";
 import LoveStory from "./components/LoveStory/LoveStory";
 import GoogleMap from "./components/Map/GoogleMap";
 import ThiepMoi from "./components/ThiepMoi/ThiepMoi";
+import PlaySound from "./components/PlaySound/PlaySound";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <ThiepMoi />
       <GoogleMap />
       <ContactInfo />
+      <PlaySound />
     </ConfigProvider>
   );
 }

@@ -18,6 +18,10 @@ import { ReactComponent as GroomIcon } from "./groom-icon.svg";
 import { ReactComponent as AcceptIcon } from "./accept-icon.svg";
 // @ts-ignore
 import { ReactComponent as RejectIcon } from "./reject-icon.svg";
+// @ts-ignore
+import { ReactComponent as MusicIcon } from "./music-icon.svg";
+// @ts-ignore
+import { ReactComponent as MusicMuteIcon } from "./music-mute-icon.svg";
 
 export {
   HeartIcon,
@@ -30,4 +34,6 @@ export {
   GroomIcon,
   AcceptIcon,
   RejectIcon,
+  MusicIcon,
+  MusicMuteIcon,
 };

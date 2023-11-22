@@ -26,3 +26,15 @@ svg {
 .text-center {
   text-align: center;
 }
+
+.custom-float-button {
+  .ant-float-btn-content {
+    width: 100%;
+  }
+  .ant-float-btn-icon {
+    display: flex;
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
