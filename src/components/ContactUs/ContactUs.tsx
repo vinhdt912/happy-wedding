@@ -39,6 +39,7 @@ export default function ContactUs() {
   const [loading, setLoading] = useState(false);
   const { setGuestOf } = useContext();
   const guest_of = Form.useWatch("guest_of", form);
+  const possible = Form.useWatch("possible", form);
 
   const GUEST_OF_OPTIONS: CheckboxOptionType[] = [
     {
@@ -169,6 +170,14 @@ export default function ContactUs() {
               size="large"
             />
           </Form.Item>
+
+          {possible === "CÓ" && guest_of === EGuestOf.girl ? (
+            <div className="text-center">
+              <Text italic style={{ fontSize: 12, whiteSpace: "nowrap" }}>
+                Chúng mình có hẹn với nhau vào ngày 1/12/2023 nhé ạ
+              </Text>
+            </div>
+          ) : null}
 
           <Form.Item name="message">
             <TextArea

@@ -10,6 +10,7 @@ import LoveStory from "./components/LoveStory/LoveStory";
 import GoogleMap from "./components/Map/GoogleMap";
 import ThiepMoi from "./components/ThiepMoi/ThiepMoi";
 import PlaySound from "./components/PlaySound/PlaySound";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -28,11 +29,12 @@ function App() {
       <Gallery />
       <Hope />
       <ContactUs />
-      <Gift />
       <ThiepMoi />
+      <Gift />
       <GoogleMap />
       <ContactInfo />
       <PlaySound />
+      <Footer />
     </ConfigProvider>
   );
 }

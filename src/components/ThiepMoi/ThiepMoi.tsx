@@ -8,19 +8,13 @@ export default function ThiepMoi() {
   return (
     <>
       <div hidden={guestOf !== EGuestOf.girl}>
-        <Carousel autoplay autoplaySpeed={2000}>
-          <img
-            src={require("../../assets/images/thiep-nha-gai-1.png")}
-            alt="thiep-cuoi"
-          />
-          <img
-            src={require("../../assets/images/thiep-nha-gai-2.png")}
-            alt="thiep-cuoi"
-          />
-        </Carousel>
+        <img
+          src={require("../../assets/images/thiep-nha-gai-1.png")}
+          alt="thiep-cuoi"
+        />
       </div>
       <div hidden={guestOf !== EGuestOf.man}>
-        <Carousel autoplay autoplaySpeed={2000}>
+        <Carousel autoplay autoplaySpeed={5000}>
           <img
             src={require("../../assets/images/thiep-nha-trai-1.png")}
             alt="thiep-cuoi"
